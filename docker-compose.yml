@@ -1,0 +1,5 @@
+services:
+  api:
+    build: .
+    ports: ["8003:8000"]
+    volumes: ["./app:/app/app", "./models:/app/models", "./data:/app/data"]
