@@ -1,5 +1,10 @@
 services:
   api:
     build: .
-    ports: ["8003:8000"]
-    volumes: ["./app:/app/app", "./models:/app/models", "./data:/app/data"]
+    ports:
+      - "8003:8000"
+    volumes:
+      - ./app:/app/app
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
