@@ -1,5 +1,11 @@
 # Customer Churn Predictor API
 
+[![CI/CD](https://github.com/rathodsaurav2907/customer-churn-predictor/actions/workflows/ci.yml/badge.svg)](https://github.com/rathodsaurav2907/customer-churn-predictor/actions/workflows/ci.yml)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](./docker-compose.yml)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+
 An explainable Machine Learning service and REST API for customer churn risk prediction, built with FastAPI, scikit-learn, and Pandas.
 
 Part of the **[Microservices & ML Data Platform Ecosystem](../ECOSYSTEM.md)**.
